@@ -1,0 +1,74 @@
+---
+title: "Report"
+output:
+  html_document:
+    theme: journal
+    fig_caption: true
+  pdf_document: default
+date: "2025-07-28"
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+# Libraries
+library(here)
+library(dplyr)
+library(ggplot2)
+library(readr)
+
+# Load the data
+pop_average <- readRDS(here("data/clean", "weighted_pop_average.rds")) %>%
+  select(Category=Mortality.Target, weighted_avg_ANC4, weighted_avg_SBA)
+
+```
+## Introduction
+
+This report analyzes **antenatal care (ANC4)**, measured by the percentage of women aged 15–49 who attended at least four antenatal visits during pregnancy with any provider, and **skilled birth attendance (SBA)**, measured by the percentage of deliveries attended by skilled health personnel, across countries that either achieved or did not achieve the under-five mortality targets in 2022. The **under-five mortality target**, part of the Sustainable Development Goals (SDGs), aims to reduce under-five mortality to no more than 25 deaths per 1,000 live births and neonatal mortality to no more than 12 deaths per 1,000 live births by 2030. Countries that met the under-five mortality target in 2022 are categorized as **On-track**, while those requiring accelerated progress are classified as **Off-track**. For this analysis, we computed **population-weighted averages** for ANC4 and SBA, using the number of projected births in 2022 as weights.
+
+
+## 1. Percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider
+
+The following figure illustrates the antenatal care (ANC4) between the two categories of countries ("On track" and "Off track"). On average, the percentage of women between 15-49 years old attending at least four antenatal care visits is higher for countries already achieving the under-five mortality target (53.4\%) than countries requiring an accelerated progress (44.5\%). This suggests that higher antenatal care coverage is associated with better progress toward reducing under-five mortality, highlighting the importance of strengthening maternal health services—particularly in countries lagging behind.
+
+
+```{r plot1, fig.align='center', echo=FALSE}
+# Visualization: "Percentage of women (aged 15-49 years) attended at \n least four antenatal care visits"
+ggplot(pop_average, aes(x = Category, y = weighted_avg_ANC4, fill = Category)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Percentage of women (aged 15-49 years) attended at \n least four times during pregnancy by any provider", 
+       y = "Antenatal care (in percent)",
+       x = "Countries Mortality Target")  +
+  scale_fill_manual(values = c("On Track" = "navy", "Off-track" = "red")) +
+  theme_minimal()
+
+```
+
+## 2. Percentage of deliveries attended by skilled health personnel
+
+The next figure illustrates the skilled birth attendance (SBA) between the two categories of countries (“On track” and “Off track”). On average, the percentage of deliveries attended by skilled health personnel higher for countries already achieving the under-five mortality target (77.6%) than countries requiring an accelerated progress (64.1%). This finding highlights the critical role of skilled birth attendance in reducing under-five mortality, suggesting that improving access to skilled health personnel during delivery may accelerate the progress of "Off track" countries.
+
+```{r plot2, fig.align='center', echo=FALSE}
+# Visualization: "Percentage of deliveries attended by skilled health personnel"
+ggplot(pop_average, aes(x = Category, y = weighted_avg_SBA, fill = Category)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Percentage of deliveries attended by skilled health personnel", 
+       y = "Skilled birth attendance (in percent)",
+       x = "Countries Mortality Target") +
+  scale_fill_manual(values = c("On Track" = "navy", "Off-track" = "red")) +
+  theme_minimal()
+
+```
+
+However, this analysis has some limitations:
+
+  - **Missing data:** Some countries have missing information for ANC4 and SBA metrics. If the missing data are not random (for example, concentrated among certain developed countries with low numbers of births), this could introduce bias into the analysis.
+
+  - **Mismatch in the year:** The weights used are projected for 2022, but the ANC4 and SBA estimates used in the analysis are the most recent available between 2018 and 2022. In some cases, the selected ANC4 and SBA estimates are from a different year than 2022, introducing potential bias in the population-weighted estimates.
+
+  - **Dispersion:** Looking only at the average may not be sufficient to draw conclusions. The analysis should include other relevant metrics, such as the standard deviation, to assess variability within each country category.
+
+  - **The weight:** The projected number of births was used as the weight for this analysis. For the ANC4, this metric is used to proxy the pregnancy but It does not capture pregnancies that didn’t result in live births.
+
