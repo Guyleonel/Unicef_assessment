@@ -1,152 +1,153 @@
-"Country.Code","Country.Name","Mortality.Target","Year","Antenatal care (ANC4)","Skilled birth attendance (SBA)","Births"
-"AFG","Afghanistan","Off-track",2020,27.6,61.8,1446.699
-"AIA","Anguilla","On Track",2020,NA,100,0.15
-"ALB","Albania","On Track",2022,NA,100,28.795
-"ARE","United Arab Emirates","On Track",2022,NA,99.9,93.343
-"ARG","Argentina","On Track",2020,90.4,98.8,627.741
-"ATG","Antigua and Barbuda","On Track",2020,NA,99,1.124
-"AUS","Australia","On Track",2021,NA,98.7,300.246
-"AUT","Austria","On Track",2022,NA,98.1,84.394
-"AZE","Azerbaijan","On Track",2022,NA,99.9,123.673
-"BEN","Benin","Off-track",2022,52.6,80.8,481.715
-"BWA","Botswana","Off-track",2021,NA,99.8,60.554
-"BFA","Burkina Faso","Off-track",2021,72.1,95.8,793.031
-"BGD","Bangladesh","On Track",2022,38.3,69.8,2994.966
-"BGR","Bulgaria","On Track",2021,NA,94.5,56.663
-"BHR","Bahrain","On Track",2020,NA,98.2,16.861
-"BHS","Bahamas","On Track",2020,NA,99,4.659
-"BIH","Bosnia and Herzegovina","On Track",2021,NA,99.9,26.764
-"BLR","Belarus","On Track",2022,NA,99.9,87.252
-"BLZ","Belize","On Track",2020,NA,94.6,7.193
-"BOL","Bolivia (Plurinational State of)","On Track",2022,NA,71.5,264.07
-"BRA","Brazil","On Track",2021,92.3,98.2,2723.266
-"BRB","Barbados","On Track",2020,NA,98.4,3.037
-"BRN","Brunei Darussalam","On Track",2021,NA,99.6,6.058
-"BTN","Bhutan","On Track",2021,NA,98.9,9.648
-"BDI","Burundi","Off-track",2022,NA,75.2,439.648
-"CMR","Cameroon","Off-track",2018,64.9,69,959.096
-"CAN","Canada","On Track",2021,NA,97.6,376.188
-"CHL","Chile","On Track",2020,NA,99.8,230.824
-"CHN","China","On Track",2018,92.9,NA,10757.794
-"CAF","Central African Republic","Off-track",2019,41.4,40.3,236.643
-"TCD","Chad","Off-track",2019,NA,47.2,765.648
-"COM","Comoros","Off-track",2022,64.3,97.2,24.201
-"COL","Colombia","On Track",2021,NA,97.5,723.264
-"CIV","Côte d'Ivoire","Off-track",2021,56.3,84,943.133
-"CPV","Cabo Verde","On Track",2018,85.6,97.3,9.908
-"CRI","Costa Rica","On Track",2021,NA,98.8,60.517
-"CUB","Cuba","On Track",2021,NA,99.9,99.693
-"CYP","Cyprus","On Track",2021,NA,99.9,12.517
-"DEU","Germany","On Track",2021,NA,96.3,761.194
-"COD","Democratic Republic of the Congo","Off-track",2018,42.9,85.2,4133.987
-"DMA","Dominica","Off-track",2020,NA,100,0.966
-"DNK","Denmark","On Track",2022,NA,96.4,64.107
-"DOM","Dominican Republic","Off-track",2019,92.6,99.2,203.625
-"DZA","Algeria","On Track",2019,69.8,98.8,923.648
-"ECU","Ecuador","On Track",2020,NA,96.3,298.666
-"EGY","Egypt","On Track",2021,89.9,97.1,2453.941
-"ESP","Spain","On Track",2022,NA,99.9,356.359
-"EST","Estonia","On Track",2022,NA,99.1,13.422
-"ETH","Ethiopia","Off-track",2019,43,49.8,3928.445
-"FIN","Finland","On Track",2021,NA,99.5,47.136
-"FRA","France","On Track",2021,NA,97.3,672.88
-"GEO","Georgia","On Track",2022,NA,99.7,49.106
-"SWZ","Eswatini","Off-track",2022,73.5,93.4,28.476
-"FJI","Fiji","Off-track",2021,88.7,99.8,17.821
-"GAB","Gabon","Off-track",2021,77.8,95.2,64.022
-"GMB","Gambia","Off-track",2020,78.5,83.8,88.535
-"GHA","Ghana","Off-track",2022,87.8,NA,906.677
-"GRC","Greece","On Track",2022,NA,99.9,77.141
-"GRD","Grenada","On Track",2020,NA,100,1.96
-"GUY","Guyana","On Track",2020,84.7,97.6,16.129
-"HND","Honduras","On Track",2019,88.3,94.1,217.59
-"HRV","Croatia","On Track",2022,96.5,NA,33.924
-"GIN","Guinea","Off-track",2021,58.3,NA,469.311
-"IDN","Indonesia","On Track",2019,NA,94.7,4462.212
-"IND","India","On Track",2021,58.4,89.4,23056.027
-"IRL","Ireland","On Track",2020,NA,99.6,57.561
-"IRQ","Iraq","On Track",2018,67.9,95.6,1203.188
-"ISL","Iceland","On Track",2020,NA,97.4,4.568
-"ITA","Italy","On Track",2021,NA,99.4,407.303
-"JAM","Jamaica","On Track",2021,NA,99.8,32.663
-"JOR","Jordan","On Track",2018,91.5,99.7,245.484
-"JPN","Japan","On Track",2022,NA,99.8,814.705
-"KAZ","Kazakhstan","On Track",2018,NA,99.9,402.511
-"GNB","Guinea-Bissau","Off-track",2019,80.7,53.8,64.479
-"KGZ","Kyrgyzstan","On Track",2021,89,NA,154.761
-"KHM","Cambodia","On Track",2022,86,98.7,318.335
-"KNA","Saint Kitts and Nevis","On Track",2021,NA,100,0.563
-"KOR","Republic of Korea","On Track",2021,NA,100,285.686
-"KWT","Kuwait","On Track",2022,NA,99.2,41.456
-"KEN","Kenya","Off-track",2022,66,89.3,1488.394
-"KIR","Kiribati","Off-track",2019,67,91.9,3.512
-"LCA","Saint Lucia","On Track",2021,NA,100,2.035
-"LTU","Lithuania","On Track",2022,NA,100,26.206
-"LVA","Latvia","On Track",2022,NA,98.1,16.531
-"MAR","Morocco","On Track",2018,53.5,86.6,643.109
-"MDA","Republic of Moldova","On Track",2022,NA,99.7,36.943
-"LSO","Lesotho","Off-track",2018,76.6,86.6,59.49
-"MEX","Mexico","On Track",2022,NA,87.5,1866.399
-"MKD","North Macedonia","On Track",2021,NA,100,19.992
-"LBR","Liberia","Off-track",2020,87.3,84.4,164.452
-"MLT","Malta","On Track",2022,NA,99.8,4.857
-"MDG","Madagascar","Off-track",2021,59.9,45.8,906.13
-"MNE","Montenegro","On Track",2018,94.2,98.8,6.859
-"MNG","Mongolia","On Track",2018,88.5,99.3,69.481
-"MLI","Mali","Off-track",2018,43.3,67.3,932.317
-"MRT","Mauritania","Off-track",2021,38.5,70.4,156.047
-"MSR","Montserrat","On Track",2020,NA,100,0.04
-"MUS","Mauritius","On Track",2021,NA,99.7,13.266
-"MWI","Malawi","Off-track",2020,50.5,96.4,665.678
-"MYS","Malaysia","On Track",2022,98.1,99.8,509.232
-"MOZ","Mozambique","Off-track",2018,51,NA,1191.147
-"NOR","Norway","On Track",2022,NA,99.1,53.988
-"NPL","Nepal","On Track",2022,80.5,80.1,616.657
-"NZL","New Zealand","On Track",2021,NA,95.8,64.103
-"OMN","Oman","On Track",2022,NA,100,81.043
-"NER","Niger","Off-track",2021,37.3,43.7,1180.654
-"PAN","Panama","On Track",2021,NA,92.5,76.637
-"PER","Peru","On Track",2021,NA,94.9,592.156
-"PHL","Philippines","Off-track",2022,83,89.6,2499.081
-"PLW","Palau","On Track",2022,NA,98.7,0.27
-"NGA","Nigeria","Off-track",2021,60.4,50.7,8002.758
-"POL","Poland","On Track",2022,NA,99.6,353.84
-"PRT","Portugal","On Track",2022,NA,97.3,80.033
-"PRY","Paraguay","On Track",2021,81,91.2,137.96
-"PSE","State of Palestine","On Track",2020,94.8,99.7,145.449
-"QAT","Qatar","On Track",2021,NA,100,24.497
-"ROU","Romania","On Track",2021,70.1,94.7,191.763
-"RUS","Russian Federation","On Track",2022,NA,99.7,1375.808
-"PAK","Pakistan","Off-track",2020,NA,68,6424.944
-"SAU","Saudi Arabia","On Track",2019,79.7,94.8,615.69
-"PNG","Papua New Guinea","Off-track",2018,49,56.4,254.718
-"SEN","Senegal","Off-track",2021,29.2,NA,555.696
-"SGP","Singapore","On Track",2022,NA,99.5,42.333
-"RWA","Rwanda","Off-track",2020,47.2,94.2,406.214
-"SLV","El Salvador","On Track",2021,NA,98.1,100.313
-"SLE","Sierra Leone","Off-track",2019,78.8,86.9,265.023
-"SRB","Serbia","On Track",2019,96.6,99.9,66.557
-"SOM","Somalia","Off-track",2019,24.4,31.9,759.044
-"STP","Sao Tome and Principe","On Track",2019,NA,96.8,6.37
-"SUR","Suriname","On Track",2021,NA,100,11.123
-"SVK","Slovakia","On Track",2022,NA,98.1,53.357
-"SYC","Seychelles","On Track",2022,NA,99.8,1.611
-"TCA","Turks and Caicos Islands","On Track",2020,93.2,100,0.56
-"SSD","South Sudan","Off-track",2020,31.1,39.7,315.39
-"THA","Thailand","On Track",2022,88.3,99.6,631.239
-"TLS","Timor-Leste","Off-track",2020,83.1,NA,33.074
-"TON","Tonga","On Track",2019,88.5,98.3,2.456
-"TUN","Tunisia","On Track",2018,84.1,99.5,192.759
-"TUR","Türkiye","On Track",2019,NA,97,1236.9
-"TUV","Tuvalu","On Track",2020,60.3,99.5,0.265
-"TZA","United Republic of Tanzania","Off-track",2022,65.1,85,2346.821
-"TKM","Turkmenistan","Off-track",2022,NA,99.7,133.491
-"URY","Uruguay","On Track",2022,97.3,NA,35.668
-"UZB","Uzbekistan","On Track",2022,89.5,99,776.815
-"VCT","Saint Vincent and the Grenadines","On Track",2021,NA,99,1.324
-"VEN","Venezuela (Bolivarian Republic of)","On Track",2018,NA,98.7,438.384
-"VNM","Viet Nam","On Track",2021,88.2,96.1,1442.809
-"WSM","Samoa","On Track",2021,69.8,NA,6.024
-"UGA","Uganda","Off-track",2022,NA,91,1713.605
-"ZMB","Zambia","Off-track",2019,63.5,80.4,683.355
-"ZWE","Zimbabwe","Off-track",2019,71.5,86,491.195
+"Country.Code","Births","Country.Name","Mortality.Target","Year","Antenatal care (ANC4)","Skilled birth attendance (SBA)"
+"BDI",439.648,"Burundi","Off-track",2022,NA,75.2
+"COM",24.201,"Comoros","Off-track",2022,64.3,97.2
+"ETH",3928.445,"Ethiopia","Off-track",2019,43,49.8
+"KEN",1488.394,"Kenya","Off-track",2022,66,89.3
+"MDG",906.13,"Madagascar","Off-track",2021,59.9,45.8
+"MWI",665.678,"Malawi","Off-track",2020,50.5,96.4
+"MUS",13.266,"Mauritius","On Track",2021,NA,99.7
+"MOZ",1191.147,"Mozambique","Off-track",2018,51,NA
+"RWA",406.214,"Rwanda","Off-track",2020,47.2,94.2
+"SYC",1.611,"Seychelles","On Track",2022,NA,99.8
+"SOM",759.044,"Somalia","Off-track",2019,24.4,31.9
+"SSD",315.39,"South Sudan","Off-track",2020,31.1,39.7
+"UGA",1713.605,"Uganda","Off-track",2022,NA,91
+"TZA",2346.821,"United Republic of Tanzania","Off-track",2022,65.1,85
+"ZMB",683.355,"Zambia","Off-track",2019,63.5,80.4
+"ZWE",491.195,"Zimbabwe","Off-track",2019,71.5,86
+"CMR",959.096,"Cameroon","Off-track",2018,64.9,69
+"CAF",236.643,"Central African Republic","Off-track",2019,41.4,40.3
+"TCD",765.648,"Chad","Off-track",2019,NA,47.2
+"COD",4133.987,"Democratic Republic of the Congo","Off-track",2018,42.9,85.2
+"GAB",64.022,"Gabon","Off-track",2021,77.8,95.2
+"STP",6.37,"Sao Tome and Principe","On Track",2019,NA,96.8
+"DZA",923.648,"Algeria","On Track",2019,69.8,98.8
+"EGY",2453.941,"Egypt","On Track",2021,89.9,97.1
+"MAR",643.109,"Morocco","On Track",2018,53.5,86.6
+"TUN",192.759,"Tunisia","On Track",2018,84.1,99.5
+"BWA",60.554,"Botswana","Off-track",2021,NA,99.8
+"SWZ",28.476,"Eswatini","Off-track",2022,73.5,93.4
+"LSO",59.49,"Lesotho","Off-track",2018,76.6,86.6
+"BEN",481.715,"Benin","Off-track",2022,52.6,80.8
+"BFA",793.031,"Burkina Faso","Off-track",2021,72.1,95.8
+"CPV",9.908,"Cabo Verde","On Track",2018,85.6,97.3
+"CIV",943.133,"Côte d'Ivoire","Off-track",2021,56.3,84
+"GMB",88.535,"Gambia","Off-track",2020,78.5,83.8
+"GHA",906.677,"Ghana","Off-track",2022,87.8,NA
+"GIN",469.311,"Guinea","Off-track",2021,58.3,NA
+"GNB",64.479,"Guinea-Bissau","Off-track",2019,80.7,53.8
+"LBR",164.452,"Liberia","Off-track",2020,87.3,84.4
+"MLI",932.317,"Mali","Off-track",2018,43.3,67.3
+"MRT",156.047,"Mauritania","Off-track",2021,38.5,70.4
+"NER",1180.654,"Niger","Off-track",2021,37.3,43.7
+"NGA",8002.758,"Nigeria","Off-track",2021,60.4,50.7
+"SEN",555.696,"Senegal","Off-track",2021,29.2,NA
+"SLE",265.023,"Sierra Leone","Off-track",2019,78.8,86.9
+"KAZ",402.511,"Kazakhstan","On Track",2018,NA,99.9
+"KGZ",154.761,"Kyrgyzstan","On Track",2021,89,NA
+"TKM",133.491,"Turkmenistan","Off-track",2022,NA,99.7
+"UZB",776.815,"Uzbekistan","On Track",2022,89.5,99
+"CHN",10757.794,"China","On Track",2018,92.9,NA
+"JPN",814.705,"Japan","On Track",2022,NA,99.8
+"MNG",69.481,"Mongolia","On Track",2018,88.5,99.3
+"KOR",285.686,"Republic of Korea","On Track",2021,NA,100
+"AFG",1446.699,"Afghanistan","Off-track",2020,27.6,61.8
+"BGD",2994.966,"Bangladesh","On Track",2022,38.3,69.8
+"BTN",9.648,"Bhutan","On Track",2021,NA,98.9
+"IND",23056.027,"India","On Track",2021,58.4,89.4
+"NPL",616.657,"Nepal","On Track",2022,80.5,80.1
+"PAK",6424.944,"Pakistan","Off-track",2020,NA,68
+"BRN",6.058,"Brunei Darussalam","On Track",2021,NA,99.6
+"KHM",318.335,"Cambodia","On Track",2022,86,98.7
+"IDN",4462.212,"Indonesia","On Track",2019,NA,94.7
+"MYS",509.232,"Malaysia","On Track",2022,98.1,99.8
+"PHL",2499.081,"Philippines","Off-track",2022,83,89.6
+"SGP",42.333,"Singapore","On Track",2022,NA,99.5
+"THA",631.239,"Thailand","On Track",2022,88.3,99.6
+"TLS",33.074,"Timor-Leste","Off-track",2020,83.1,NA
+"VNM",1442.809,"Viet Nam","On Track",2021,88.2,96.1
+"AZE",123.673,"Azerbaijan","On Track",2022,NA,99.9
+"BHR",16.861,"Bahrain","On Track",2020,NA,98.2
+"CYP",12.517,"Cyprus","On Track",2021,NA,99.9
+"GEO",49.106,"Georgia","On Track",2022,NA,99.7
+"IRQ",1203.188,"Iraq","On Track",2018,67.9,95.6
+"JOR",245.484,"Jordan","On Track",2018,91.5,99.7
+"KWT",41.456,"Kuwait","On Track",2022,NA,99.2
+"OMN",81.043,"Oman","On Track",2022,NA,100
+"QAT",24.497,"Qatar","On Track",2021,NA,100
+"SAU",615.69,"Saudi Arabia","On Track",2019,79.7,94.8
+"PSE",145.449,"State of Palestine","On Track",2020,94.8,99.7
+"TUR",1236.9,"Türkiye","On Track",2019,NA,97
+"ARE",93.343,"United Arab Emirates","On Track",2022,NA,99.9
+"BLR",87.252,"Belarus","On Track",2022,NA,99.9
+"BGR",56.663,"Bulgaria","On Track",2021,NA,94.5
+"POL",353.84,"Poland","On Track",2022,NA,99.6
+"MDA",36.943,"Republic of Moldova","On Track",2022,NA,99.7
+"ROU",191.763,"Romania","On Track",2021,70.1,94.7
+"RUS",1375.808,"Russian Federation","On Track",2022,NA,99.7
+"SVK",53.357,"Slovakia","On Track",2022,NA,98.1
+"DNK",64.107,"Denmark","On Track",2022,NA,96.4
+"EST",13.422,"Estonia","On Track",2022,NA,99.1
+"FIN",47.136,"Finland","On Track",2021,NA,99.5
+"ISL",4.568,"Iceland","On Track",2020,NA,97.4
+"IRL",57.561,"Ireland","On Track",2020,NA,99.6
+"LVA",16.531,"Latvia","On Track",2022,NA,98.1
+"LTU",26.206,"Lithuania","On Track",2022,NA,100
+"NOR",53.988,"Norway","On Track",2022,NA,99.1
+"ALB",28.795,"Albania","On Track",2022,NA,100
+"BIH",26.764,"Bosnia and Herzegovina","On Track",2021,NA,99.9
+"HRV",33.924,"Croatia","On Track",2022,96.5,NA
+"GRC",77.141,"Greece","On Track",2022,NA,99.9
+"ITA",407.303,"Italy","On Track",2021,NA,99.4
+"MLT",4.857,"Malta","On Track",2022,NA,99.8
+"MNE",6.859,"Montenegro","On Track",2018,94.2,98.8
+"MKD",19.992,"North Macedonia","On Track",2021,NA,100
+"PRT",80.033,"Portugal","On Track",2022,NA,97.3
+"SRB",66.557,"Serbia","On Track",2019,96.6,99.9
+"ESP",356.359,"Spain","On Track",2022,NA,99.9
+"AUT",84.394,"Austria","On Track",2022,NA,98.1
+"FRA",672.88,"France","On Track",2021,NA,97.3
+"DEU",761.194,"Germany","On Track",2021,NA,96.3
+"AIA",0.15,"Anguilla","On Track",2020,NA,100
+"ATG",1.124,"Antigua and Barbuda","On Track",2020,NA,99
+"BHS",4.659,"Bahamas","On Track",2020,NA,99
+"BRB",3.037,"Barbados","On Track",2020,NA,98.4
+"CUB",99.693,"Cuba","On Track",2021,NA,99.9
+"DMA",0.966,"Dominica","Off-track",2020,NA,100
+"DOM",203.625,"Dominican Republic","Off-track",2019,92.6,99.2
+"GRD",1.96,"Grenada","On Track",2020,NA,100
+"JAM",32.663,"Jamaica","On Track",2021,NA,99.8
+"MSR",0.04,"Montserrat","On Track",2020,NA,100
+"KNA",0.563,"Saint Kitts and Nevis","On Track",2021,NA,100
+"LCA",2.035,"Saint Lucia","On Track",2021,NA,100
+"VCT",1.324,"Saint Vincent and the Grenadines","On Track",2021,NA,99
+"TCA",0.56,"Turks and Caicos Islands","On Track",2020,93.2,100
+"BLZ",7.193,"Belize","On Track",2020,NA,94.6
+"CRI",60.517,"Costa Rica","On Track",2021,NA,98.8
+"SLV",100.313,"El Salvador","On Track",2021,NA,98.1
+"HND",217.59,"Honduras","On Track",2019,88.3,94.1
+"MEX",1866.399,"Mexico","On Track",2022,NA,87.5
+"PAN",76.637,"Panama","On Track",2021,NA,92.5
+"ARG",627.741,"Argentina","On Track",2020,90.4,98.8
+"BOL",264.07,"Bolivia (Plurinational State of)","On Track",2022,NA,71.5
+"BRA",2723.266,"Brazil","On Track",2021,92.3,98.2
+"CHL",230.824,"Chile","On Track",2020,NA,99.8
+"COL",723.264,"Colombia","On Track",2021,NA,97.5
+"ECU",298.666,"Ecuador","On Track",2020,NA,96.3
+"GUY",16.129,"Guyana","On Track",2020,84.7,97.6
+"PRY",137.96,"Paraguay","On Track",2021,81,91.2
+"PER",592.156,"Peru","On Track",2021,NA,94.9
+"SUR",11.123,"Suriname","On Track",2021,NA,100
+"URY",35.668,"Uruguay","On Track",2022,97.3,NA
+"VEN",438.384,"Venezuela (Bolivarian Republic of)","On Track",2018,NA,98.7
+"CAN",376.188,"Canada","On Track",2021,NA,97.6
+"USA",3726.867,"United States","On Track",2021,NA,98.6
+"AUS",300.246,"Australia","On Track",2021,NA,98.7
+"NZL",64.103,"New Zealand","On Track",2021,NA,95.8
+"FJI",17.821,"Fiji","Off-track",2021,88.7,99.8
+"PNG",254.718,"Papua New Guinea","Off-track",2018,49,56.4
+"KIR",3.512,"Kiribati","Off-track",2019,67,91.9
+"PLW",0.27,"Palau","On Track",2022,NA,98.7
+"WSM",6.024,"Samoa","On Track",2021,69.8,NA
+"TON",2.456,"Tonga","On Track",2019,88.5,98.3
+"TUV",0.265,"Tuvalu","On Track",2020,60.3,99.5
