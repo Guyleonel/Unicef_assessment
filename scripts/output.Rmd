@@ -5,7 +5,7 @@ output:
     theme: journal
     fig_caption: true
   pdf_document: default
-date: "2025-07-28"
+date: "Administrative Data Analyst – Req. #581696"
 ---
 
 
@@ -31,7 +31,7 @@ This report analyzes **antenatal care (ANC4)**, measured by the percentage of wo
 
 ## 1. Percentage of women (aged 15-49 years) attended at least four times during pregnancy by any provider
 
-The following figure illustrates the antenatal care (ANC4) between the two categories of countries ("On track" and "Off track"). On average, the percentage of women between 15-49 years old attending at least four antenatal care visits is higher for countries already achieving the under-five mortality target (53.4\%) than countries requiring an accelerated progress (44.5\%). This suggests that higher antenatal care coverage is associated with better progress toward reducing under-five mortality, highlighting the importance of strengthening maternal health services—particularly in countries lagging behind.
+The following figure illustrates the antenatal care (ANC4) between the two categories of countries ("On track" and "Off track"). On average, the percentage of women between 15-49 years old attending at least four antenatal care visits is higher for countries already achieving the under-five mortality target (50.7\%) than countries requiring an accelerated progress (44.5\%). This suggests that higher antenatal care coverage is associated with better progress toward reducing under-five mortality, highlighting the importance of strengthening maternal health services—particularly in countries lagging behind.
 
 
 ```{r plot1, fig.align='center', echo=FALSE}
@@ -48,7 +48,7 @@ ggplot(pop_average, aes(x = Category, y = weighted_avg_ANC4, fill = Category)) +
 
 ## 2. Percentage of deliveries attended by skilled health personnel
 
-The next figure illustrates the skilled birth attendance (SBA) between the two categories of countries (“On track” and “Off track”). On average, the percentage of deliveries attended by skilled health personnel higher for countries already achieving the under-five mortality target (77.6%) than countries requiring an accelerated progress (64.1%). This finding highlights the critical role of skilled birth attendance in reducing under-five mortality, suggesting that improving access to skilled health personnel during delivery may accelerate the progress of "Off track" countries.
+The next figure illustrates the skilled birth attendance (SBA) between the two categories of countries (“On track” and “Off track”). On average, the percentage of deliveries attended by skilled health personnel higher for countries already achieving the under-five mortality target (78.7%) than countries requiring an accelerated progress (64.1%). This finding highlights the critical role of skilled birth attendance in reducing under-five mortality, suggesting that improving access to skilled health personnel during delivery may accelerate the progress of "Off track" countries.
 
 ```{r plot2, fig.align='center', echo=FALSE}
 # Visualization: "Percentage of deliveries attended by skilled health personnel"

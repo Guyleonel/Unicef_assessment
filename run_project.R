@@ -3,20 +3,13 @@
 # from data preparation to report generation
 # ---------------------------------------
 
-# 1. Load required packages
-packages <- c("here", "dplyr", "ggplot2", "readxl", "tidyr","rmarkdown")
+# 2. Ingest data 
+ingest_script <- file.path(scripts_path, "ingest_data.R")
+if (file.exists(ingest_script)) {
+  source(ingest_script)
+}
 
-installed <- rownames(installed.packages())
-to_install <- setdiff(packages, installed)
-if (length(to_install)) install.packages(to_install)
-lapply(packages, library, character.only = TRUE)
-
-# 2. Define project structure
-scripts_path <- here("scripts")
-data_path <- here("data")
-output_path <- here("documentation")
-
-# 3. Ingest and prepare the data, and compute the population weighted average 
+# 3. Preprocess the data and compute the population weighted average 
 prepare_script <- file.path(scripts_path, "prepare.R")
 if (file.exists(prepare_script)) {
   source(prepare_script)
